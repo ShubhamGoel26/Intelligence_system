@@ -7,3 +7,5 @@ langchain
 requests
 beautifulsoup4
 duckduckgo-search
+langchain_google_genai
+pydantic
