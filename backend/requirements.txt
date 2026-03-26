@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+crewai
+langchain
+requests
+beautifulsoup4
+duckduckgo-search
