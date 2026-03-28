@@ -100,6 +100,7 @@ def run_pipeline(company):
     )
 
     message = crew3.kickoff()
+    final_output = getattr(message, "raw", None) or getattr(message, "output", None) or str(message)
 
     # -------------------
     # FINAL STRUCTURE
@@ -108,5 +109,5 @@ def run_pipeline(company):
         "company": company["name"],
         "profile": profile,
         "contact": contact,
-        "outreach_message": message.strip()
+        "outreach_message": final_output
     }
