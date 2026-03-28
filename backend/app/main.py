@@ -39,7 +39,7 @@ async def process_companies(companies):
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # later restrict
+    allow_origins=[""https://intelligence-system-theta.vercel.app""],  # later restrict
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
