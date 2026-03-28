@@ -79,7 +79,7 @@ npm run dev
 ```
 
 ---
-
+APP LINK: https://intelligence-system-theta.vercel.app/
 ## 🔧 Tech Stack
 
 - FastAPI
