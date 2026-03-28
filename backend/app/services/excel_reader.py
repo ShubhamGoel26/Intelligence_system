@@ -37,9 +37,9 @@ def read_companies(file_path: str):
     for _, row in df.iterrows():
 
         # 🔹 Extract by index (based on your sheet)
-        name = row[2] if len(row) > 2 else None
-        location = row[1] if len(row) > 1 else ""
-        raw_email = row[3] if len(row) > 3 else None
+        name = row[3] if len(row) > 2 else None
+        location = row[2] if len(row) > 1 else ""
+        raw_email = row[4] if len(row) > 3 else None
 
         # ❌ Skip invalid rows
         if pd.isna(name):
