@@ -7,3 +7,4 @@ requests
 duckduckgo-search
 python-dotenv
 crewai
+crewai[google-genai]
